@@ -3,35 +3,39 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "ded0327cd7f23b0958b67d8333c55eb2",
-"index.html": "1b8c434e012079ff8167d6888839efee",
-"/": "1b8c434e012079ff8167d6888839efee",
-"main.dart.js": "f73b13f79fdd51bd71aeb166daafb78b",
+  "version.json": "60dc44ce555e5b3ff630d2e4ecdb81e4",
+"index.html": "d9d4aefb59168e1b4855baf8dbd104ef",
+"/": "d9d4aefb59168e1b4855baf8dbd104ef",
+"main.dart.js": "c6e257fb1d98a30b4e7601052e32a501",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "9effaba2a03c73efd436adf446931523",
-"assets/AssetManifest.json": "3adc88a19600a08e5570dd20c3191054",
-"assets/NOTICES": "b48bd9be818bbadf257dada15252c7d8",
+"assets/AssetManifest.json": "a323c50bc0a202573f4a38c8300a65a4",
+"assets/NOTICES": "74a5bed8b0d964bf30fe1606ecdcdefe",
 "assets/FontManifest.json": "85a2bb94bce1048aa3c8578a9b880c41",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/images/instagram.png": "8290266a5fb402a34b96f890bbdb2d60",
-"assets/assets/images/left_final.png": "fe2470626a19b9bc5dbec7fad1e864ed",
-"assets/assets/images/final_logo.png": "0f1f308dea746a8b5304395f4ad94910",
+"assets/assets/images/left_final.png": "ccad9dfb3a9575749c0f188f58eedd72",
+"assets/assets/images/final_logo.png": "71edcd4789ccb2359c560ea4f1f27fe7",
 "assets/assets/images/bg_main2.jpg": "c033a3c08435c1001561b8abb3aff344",
 "assets/assets/font/Philosopher-Bold.ttf": "a3aed8baca93ce1469b74a7a16239ca6",
 "assets/assets/font/Philosopher-Regular.ttf": "af6ea62714f4dc4aff98b14cc8ff23db",
-"assets/assets/font/Philosopher-Italic.ttf": "b9e3037ceb52b6e7afeb102865b0d019"
+"assets/assets/font/Philosopher-Italic.ttf": "b9e3037ceb52b6e7afeb102865b0d019",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
